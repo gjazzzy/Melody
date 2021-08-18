@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Bebas Neue Cyrillic';
+    src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
+        url('./fonts/BebasNeueCyrillic.woff2') format('woff2'),
+        url('./fonts/BebasNeueCyrillic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+    body{
+    font-family: 'Roboto', sans-serif;
+    background: white
+    
+}
+.header {
+    background-color: RGB(99,88,84);
+    border-bottom:#3596F5 4px solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-top: 12px ;
+    padding-bottom: 15px;
+    
+   
+    
+}
+.navbar {
+    max-width: 1278px;
+   
+    margin: auto; /*сделали шактивную шапку по центру */
+    display: flex; /* сделали блок гибким*/
+    justify-content: space-between; /*расставили элементы по краям */
+    align-items: center; /* расставиди элементы по центру*/
+}
+.navbar-menu {
+    margin: 0;  /* Отключили отступы внутри  */
+    padding: 0; /* отключили внутренние отступы  */
+    list-style: none; /* отключили точки у меню бара*/
+    display: flex;
+    text-align: center;
+}
+.navbar-item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link {
+    text-decoration: none;
+    color:white;
+}
+.navbar-contacts {
+    color:white;
+   
+}
+.navbar-phone{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 20px;
+     
+}
+.navbar-text {
+    margin-bottom: -12px;
+    display: block;
+}
+
+.main {
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 54px;
+    display: flex;
+}
+.home path {
+    opacity: 0;
+    cursor: pointer;
+
+}
+.home path:hover {
+    opacity: 1;
+}
+.main-info {
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter-grope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.counter-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.counter-arrow-down {
+    transform: rotateX(180deg);
+}
+.text-info {
+    
+    font-family: 'Bebas Neue Cyrillic',sans-serif;
+    font-size: 37px;
+    width: 400;
+    align-items: center;
+    line-height: 47px;
+    color:RGB(99,88,84) ;
+    margin: 0;
+}
+.counter {
+    font-size: 124px;
+    color:RGB(99,88,84) ;
+    font-family: 'Bebas Neue Cyrillic' sans-serif;
+    font-style: normal;
+    font-display: swap;
+}
+.main-image {
+    max-width: 734px;
+    max-height: 640px;
+    
+  
+}
+.button-primary{
+    padding-top: 16px;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: none;
+    color: #ffffff  ;
+    font-size: 20px;
+    background-color: #3596F5;
+    margin-top: 118px;
+    border-radius: 2000px;
+    cursor: pointer;
+}
+.logo-link {
+    border: #51a8ff 3px solid;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    background-color: #51a8ff;  
+}
+
+.foter {
+    background-color: RGB(215,215,215);
+    border:#3596F5 4px solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-top: 53px ;
+    padding-bottom: 60px;
+    margin: auto;
+    margin-top: 58px ;
+    max-width: 1278px;
+    display: flex;
+    border-radius: 3000000px;
+
+    align-items: center;
+
+}
+
+.foter-logo {
+    max-height: 59px;
+    max-width: 61px;
+    text-align: center;
+    padding-left:50px ;
+    display: flex;
+
+}
+.foter-contacts {
+    color:RGB(99,88,84);
+    padding-left: 35px;
+   
+}
+.foter-phone{
+    color:RGB(99,88,84);
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 20px;
+     
+}
+.foter-text {
+    margin-bottom: -12px;
+    display: block;
+}
